@@ -7,6 +7,12 @@ metadata:
     app.kubernetes.io/part-of: py-simple-api-doc
   name: py-simple-api-doc
 spec:
+  source:
+    git:
+      url: https://github.com/hirokim-vm/tap-python-recipies
+      ref:
+        branch: main
+    subPath: python-simple-rest-w-swagger
   params:
     - name: annotations
       value:
